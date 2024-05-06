@@ -11,11 +11,11 @@ const Sec1 = () => {
                 <div className="w-[25%] h-full object-cover"><img src={ three }/></div>
                 <div className="w-[25%] h-full object-cover"><img src={ four }/></div>
             </div>
-            <div className='flex flex-row'>
-                <p>Transforming <br />Ideas Photography</p>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fugit tempore aut ea inventore optio rerum corrupti, quia impedit, voluptatem doloribus exercitationem et nihil esse possimus! Velit consequatur eveniet voluptate.</p>
-                    <div className='h-[25px] w-[25px] bg-[#e9e9e9] rounded-full'></div>
+            <div className='flex flex-row justify-between items-center px-[20px] mt-[20px]'>
+                <p className='text-[50px] font-bold'>Transforming <br />Ideas Photography</p>
+                <div className='flex flex-col justify-end items-end gap-[10px]'>
+                    <p className='text-[13px] text-[#797878] text-right'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fugit tempore <br /> aut ea inventore optio rerum corrupti, quia impedit, voluptatem doloribus exercitationem <br /> et nihil esse possimus! Velit consequatur eveniet voluptate.</p>
+                    <div className='h-[25px] w-[25px] bg-[#797878] rounded-full'></div>
                 </div>
             </div>
         </div>
