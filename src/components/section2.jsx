@@ -9,7 +9,7 @@ const Sec2 = () => {
                 <p>See More</p>
             </div>
             <div className='w-[50%]'>
-                <img src={ five }/>
+                <img src={ five } className='h-[450px] w-full object-cover'/>
             </div>
         </div>
     );
