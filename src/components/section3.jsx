@@ -9,12 +9,35 @@ const Sec3 = () => {
                 <p className='text-[40px] font-bold'>We provide various best services to<br />transform your ideas</p>
             </div>
             <div>
-                <div className={`${tab === 0 ? " bg-white" : "bg-black"} flex flex-row w-full justify-around items-start px-[15px] py-[10px]`} onClick={()=> setTab(0)}>
+                <div className={`${tab === 0 ? " bg-black" : "bg-white"} flex flex-row w-full justify-around items-start px-[15px] py-[20px]`} onClick={()=> setTab(0)}>
                     <div className="w-[30%]">
-                        <img src={ six } className="w-full h-[300px] object-cover"/>
+                        <img src={ six } className={`${tab === 0 ? "w-full h-[300px]" : "w-[250px] h-[200px]"} object-cover`}/>
                     </div>
-                    <p className={`${tab === 0 ? " text-black" : "text-white"} w-[30%] text-bold text-[30px]`}>Design Interior</p>
-                    <p className={`${tab === 0 ? " text-[#797878]" : "text-white"} w-[30%] text-[13px]`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fugit tempore <br /> aut ea inventore optio rerum corrupti, quia impedit, voluptatem doloribus exercitationem <br /> et nihil esse possimus! Velit consequatur eveniet voluptate.</p>
+                    <p className={`${tab === 0 ? " text-white" : "text-black"} w-[30%] text-bold text-[30px]`}>Design Interior</p>
+                    <div className={`${tab === 0 ? " text-white" : "text-[#797878]"} w-[30%] h-full text-[13px] flex flex-col justify-normal items-start space-y-[180px]`}>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fugit tempore <br /> aut ea inventore optio rerum corrupti, quia impedit, voluptatem doloribus exercitationem <br /> et nihil esse possimus! Velit consequatur eveniet voluptate.</p>
+                        <div className={`${tab === 0 ? "block" : "hidden"} h-[35px] w-[35px] bg-[#797878] rounded-full`}></div>
+                    </div>
+                </div>
+                <div className={`${tab === 1 ? " bg-black" : "bg-white"} flex flex-row w-full justify-around items-start px-[15px] py-[20px]`} onClick={()=> setTab(1)}>
+                    <div className="w-[30%]">
+                        <img src={ six } className={`${tab === 1 ? "w-full h-[300px]" : "w-[250px] h-[200px]"} object-cover`}/>
+                    </div>
+                    <p className={`${tab === 1 ? " text-white" : "text-black"} w-[30%] text-bold text-[30px]`}>Design Interior</p>
+                    <div className={`${tab === 1 ? " text-white" : "text-[#797878]"} w-[30%] h-full text-[13px] flex flex-col justify-normal items-start space-y-[180px]`}>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fugit tempore <br /> aut ea inventore optio rerum corrupti, quia impedit, voluptatem doloribus exercitationem <br /> et nihil esse possimus! Velit consequatur eveniet voluptate.</p>
+                        <div className={`${tab === 1 ? "block" : "hidden"} h-[35px] w-[35px] bg-[#797878] rounded-full`}></div>
+                    </div>
+                </div>
+                <div className={`${tab === 2 ? " bg-black" : "bg-white"} flex flex-row w-full justify-around items-start px-[15px] py-[20px]`} onClick={()=> setTab(2)}>
+                    <div className="w-[30%]">
+                        <img src={ six } className={`${tab === 2 ? "w-full h-[300px]" : "w-[250px] h-[200px]"} object-cover`}/>
+                    </div>
+                    <p className={`${tab === 2 ? " text-white" : "text-black"} w-[30%] text-bold text-[30px]`}>Design Interior</p>
+                    <div className={`${tab === 2 ? " text-white" : "text-[#797878]"} w-[30%] h-full text-[13px] flex flex-col justify-normal items-start space-y-[180px]`}>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur fugit tempore <br /> aut ea inventore optio rerum corrupti, quia impedit, voluptatem doloribus exercitationem <br /> et nihil esse possimus! Velit consequatur eveniet voluptate.</p>
+                        <div className={`${tab === 2 ? "block" : "hidden"} h-[35px] w-[35px] bg-[#797878] rounded-full`}></div>
+                    </div>
                 </div>
             </div>
         </div>
