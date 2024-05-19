@@ -1,5 +1,7 @@
 import nine from '../assets/9.jpg';
 import ten from '../assets/10.jpg';
+import eleven from '../assets/11.jpg';
+import twelve from '../assets/12.jpg';
 const Sec4 = () => {
     return (  
         <div className="px-[20px] mt-[100px]">
@@ -17,6 +19,16 @@ const Sec4 = () => {
                     <img src={ ten } className='w-full h-[500px] object-cover'/>
                     <p className='text-[30px] font-semibold'>SHIMMERING</p>
                     <p className='text-[20px] text-[#797878]'>United States / Portait Photography</p>
+                </div>
+                <div className='w-[70%] flex flex-col items-end absolute right-0 top-[1050px]'>
+                    <img src={ eleven } className='w-full h-[500px] object-cover'/>
+                    <p className='text-[30px] font-semibold'>SUMMER PALMS</p>
+                    <p className='text-[20px] text-[#797878]'>Thailand / Photography</p>
+                </div>
+                <div className='w-[50%] flex flex-col items-start absolute top-[1600px]'>
+                    <img src={ twelve } className='w-full h-[500px] object-cover'/>
+                    <p className='text-[30px] font-semibold'>HILL DRIVE</p>
+                    <p className='text-[20px] text-[#797878]'>Swiss Alps / Urban Photography</p>
                 </div>
             </div>
             
