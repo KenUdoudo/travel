@@ -1,4 +1,5 @@
 import nine from '../assets/9.jpg';
+import ten from '../assets/10.jpg';
 const Sec4 = () => {
     return (  
         <div className="px-[20px] mt-[100px]">
@@ -12,7 +13,13 @@ const Sec4 = () => {
                     <p className='text-[30px] font-semibold'>NEON LIGHTS</p>
                     <p className='text-[20px] text-[#797878]'>United States / Portait Photography</p>
                 </div>
+                <div className='w-[40%] flex flex-col items-start absolute top-[500px]'>
+                    <img src={ ten } className='w-full h-[500px] object-cover'/>
+                    <p className='text-[30px] font-semibold'>SHIMMERING</p>
+                    <p className='text-[20px] text-[#797878]'>United States / Portait Photography</p>
+                </div>
             </div>
+            
         </div>
     );
 }
